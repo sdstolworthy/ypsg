@@ -1,0 +1,8 @@
+function generateClass({
+  
+}) {
+
+return ```
+
+```
+}

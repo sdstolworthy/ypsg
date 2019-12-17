@@ -1,0 +1,2 @@
+class {{className}}(object):
+    pass

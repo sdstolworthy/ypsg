@@ -1,0 +1,16 @@
+roles:
+        User:
+                - 'user.read'
+                - 'user.update'
+                - 'user.delete'
+                - 'user.create'
+        Forms:
+                - 'form.read'
+                - 'form.update'
+                - 'form.delete'
+                - 'form.create'
+        Packet:
+                - 'packet.read'
+                - 'packet.update'
+                - 'packet.delete'
+                - 'packet.create'
