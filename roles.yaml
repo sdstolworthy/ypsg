@@ -1,16 +1,22 @@
 roles:
-        User:
-                - 'user.read'
-                - 'user.update'
-                - 'user.delete'
-                - 'user.create'
-        Forms:
-                - 'form.read'
-                - 'form.update'
-                - 'form.delete'
-                - 'form.create'
-        Packet:
-                - 'packet.read'
-                - 'packet.update'
-                - 'packet.delete'
-                - 'packet.create'
+  User:
+    - 'read'
+    - 'update'
+    - 'delete'
+    - 'create'
+  Forms:
+    - 'read'
+    - 'update'
+    - 'delete'
+    - 'create'
+  Packet:
+    - 'read'
+    - 'update'
+    - 'delete'
+    - 'create'
+  Survey:
+    Response:
+      - 'create'
+      - 'read'
+      - 'update'
+      - 'delete'
